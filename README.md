@@ -1,14 +1,23 @@
-# motor_control
-
-playground folder is meant to try out some rl stuff to play around with and get some understanding
-
-
-
 ### Installation
-python version 3.11
 
-if not installed already, run:
+created with python version 3.10 on linux machine
 
-```pip install'stable-baselines3[extra]'```
+to create python environment run 
+'''python -m venv /path/to/new/venv'''
 
-```pip install gymnasium```
+to activate run
+'''source venv/bin/activate'''
+```pip install gymnasium``
+to install requirenment run
+'''pip install -r requirements.txt'''
+
+### Usage
+
+set reward type, number of training steps and evaluation episodes in train.py
+
+run with
+
+'''python train.py'''
+
+find results in 'logs' dir
+
